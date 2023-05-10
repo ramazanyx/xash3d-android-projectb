@@ -28,6 +28,7 @@ jobs:
       add-to-path: false
    - run: | 
            sudo apt install curl -y
+           rm -rf jni/src/hlsdk-portable
            ./build.sh
      env:
       ANDROID_NDK_HOME: ${{ steps.setup-ndk.outputs.ndk-path }}
