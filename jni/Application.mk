@@ -5,7 +5,7 @@
 
 XASH_64BIT ?= 0
 XASH_SDL ?= 0
-XASH_VGUI ?= 0
+XASH_VGUI ?= 1
 # If non-zero, works only if single ABI selected
 XASH_THREAD_NUM ?= 0
 
