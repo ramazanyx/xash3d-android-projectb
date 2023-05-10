@@ -5,7 +5,7 @@
 
 XASH_64BIT ?= 0
 XASH_SDL ?= 0
-XASH_VGUI ?= 1
+XASH_VGUI ?= 0
 # If non-zero, works only if single ABI selected
 XASH_THREAD_NUM ?= 0
 
@@ -51,7 +51,7 @@ endif
 # Mods are built with both ABI support
 # Build both armeabi-v7a-hard and armeabi-v7a supported only for mods, not for engine
 
-APP_MODULES := xash client server NanoGL
+APP_MODULES := xash NanoGL
 ifeq ($(XASH_SDL),1)
 	APP_MODULES += SDL2
 endif
