@@ -34,5 +34,5 @@ jobs:
    - name: Upload artifacts
      uses: actions/upload-artifact@v2
      with:
-          name: Android
-          path: libs/armeabi-v7a/libxash*.so
+          name: android-compiled
+          path: libs/

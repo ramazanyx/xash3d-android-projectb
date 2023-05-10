@@ -37,7 +37,7 @@ NANOGL_PATH := $(APPLICATIONMK_PATH)/src/NanoGL/nanogl
 
 XASH3D_PATH := $(APPLICATIONMK_PATH)/src/Xash3D/xash3d
 
-HLSDK_PATH  := $(APPLICATIONMK_PATH)/src/hlsdk-xash3d
+HLSDK_PATH  := $(APPLICATIONMK_PATH)/src/HLSDK/halflife
 
 XASH3D_CONFIG := $(APPLICATIONMK_PATH)/xash3d_config.mk
 
@@ -51,7 +51,7 @@ endif
 # Mods are built with both ABI support
 # Build both armeabi-v7a-hard and armeabi-v7a supported only for mods, not for engine
 
-APP_MODULES := xash menu client server NanoGL
+APP_MODULES := xash client server NanoGL
 ifeq ($(XASH_SDL),1)
 	APP_MODULES += SDL2
 endif
