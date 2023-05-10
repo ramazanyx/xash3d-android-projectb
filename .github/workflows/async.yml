@@ -19,7 +19,7 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v2
       with:
-        token: ${{ secrets.GIZLI_2500227_ANAHTAR }}
+        token: ${{ secrets.GIZLI_2500229_ANAHTAR }}
         submodules: true
 
     # Update references
