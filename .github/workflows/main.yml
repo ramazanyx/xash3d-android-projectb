@@ -27,7 +27,7 @@ jobs:
       ndk-version: r10e
       add-to-path: false
    - run: | 
-           sudo apt install curl -y
+           sudo apt-get install libcurl-dev -y
            rm -rf jni/src/hlsdk-portable
            ./build.sh
      env:
