@@ -27,9 +27,6 @@ jobs:
       ndk-version: r10e
       add-to-path: false
    - run: | 
-           sudo dpkg --add-architecture i386
-           sudo apt-get update
-           sudo apt-get install build-essential gcc-multilib g++-multilib libcurl4-openssl-dev -y
            rm -rf jni/src/hlsdk-portable
            ./build.sh
      env:
