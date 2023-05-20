@@ -45,7 +45,7 @@ ifeq ($(XASH_64BIT),1)
 #APP_ABI := x86_64 arm64-v8a
 APP_ABI := arm64-v8a
 else
-APP_ABI := x86 armeabi-v7a-hard armeabi-v7a
+APP_ABI := x86 armeabi-v7a-hard armv7
 endif
 # Use armeabi-v7a-hard to enable hardfloat (r12b and higher ndks dosent support hard float)
 # Mods are built with both ABI support
