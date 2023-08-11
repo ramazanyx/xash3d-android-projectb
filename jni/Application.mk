@@ -3,7 +3,7 @@
 # See CPLUSPLUS-SUPPORT.html in the NDK documentation for more information
 #APP_STL := stlport_static
 
-XASH_64BIT ?= 1
+XASH_64BIT ?= 0
 XASH_SDL ?= 0
 XASH_VGUI ?= 1
 # If non-zero, works only if single ABI selected
